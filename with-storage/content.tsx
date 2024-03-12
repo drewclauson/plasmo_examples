@@ -11,7 +11,7 @@ export const config: PlasmoCSConfig = {
 // Idea for styling injection support (inline or with custom emotion cache)
 
 export const getRootContainer = () => {
-  return document.querySelector("#feature")
+  return document.querySelector("#__next")
 }
 
 const PlasmoOverlay = () => {
